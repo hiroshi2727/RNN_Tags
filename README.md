@@ -18,8 +18,7 @@ My internship project of natural language processing using deep learning.
 2. preprocessing: preprocess the files before learning
 3. model: actural learning and prediction files with various models
 ### Files in model folder
-1. categorical_onehot.py
-2. categorical_multihot.py
-3. categorical_seq2seq.py
-4. linear_word2vec.py
-5. 
+1. categorical_onehot.py: Use one-hot vectors as inputs and categorical model for predicting.
+2. categorical_multihot.py: Use multi-hot vectors as inputs and categorical model for predicting.
+3. categorical_seq2seq.py: Use one-hot vectors as inputs and sequence to sequence model for predicting.
+4. linear_word2vec.py: Use vectorized word by word2vec as inputs and linear regression model for predicting.
