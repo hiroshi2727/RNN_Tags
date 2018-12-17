@@ -5,7 +5,7 @@ My internship project of natural language processing using deep learning.
 ### Learning
 1. Import csv file of Japanese sentences with several tags as input.
 2. Parse the sentences to words by space so that it can be treated as the input of RNN model (also called "Wakati").
-3. Make a word2vec model based on sentences, which convert word to 100-200 dimention vectors.
+3. Make a word2vec model based on sentences, which convert each word to 100-200 dimention vector.
 4. Make a RNN model composed of LSTM, Dense, and Dropout layers for learning.
 5. Flow the input sentences and the label of vectorized tag words into RNN model using generator for learning.
 ### Prediction
